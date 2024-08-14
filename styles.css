@@ -318,6 +318,7 @@ section {
 #text-box h2{
   justify-self: center;
   text-align: center;
+  font-size: 1rem;
 }
 #img-box img{
   display: none;
