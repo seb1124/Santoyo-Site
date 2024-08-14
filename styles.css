@@ -266,6 +266,15 @@ section {
     background-color:black;
     height: 1px;
   }
+  .footer{
+    background-color: inherit;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.75rem;
+    height: 5%;
+  }
   
   /* Media queries for larger screens */
 @media (min-width: 768px) {
