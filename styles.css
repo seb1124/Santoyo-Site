@@ -63,12 +63,12 @@ section {
     width: 80%;
     max-width: 1200px;
     height: 600px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);*/
 }
 #text-box {
     flex: 1;
-    background-color: #3D3B40;
-    color: #fff;
+    background-color: inherit;    /*  #3D3B40 */
+    color: black;
     display: flex;
     padding: 20px;
     box-sizing: border-box;
@@ -79,10 +79,36 @@ section {
 #text-box h2{
     margin: 10px;
     padding: 10px;
+    margin-top: 0px;
+    padding-top: 0px;
 }
 #text-box p{
     margin: 10px;
     padding: 10px;
+    font-size: 1.25rem;
+}
+#contact-us{
+  font-size: 1.5 rem;
+  align-self: flex-start;
+  color: #f2f2f2;
+  background-color: #931A25;
+  width: 40%;
+  height: 10%;
+  border-radius: 4%;
+  text-decoration: none;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  /* Center the text horizontally and vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* Make the element responsive */
+  padding: 10px 20px; /* Adjust padding for responsiveness */
+  box-sizing: border-box; /* Ensure padding is included in width/height */
+}
+#contact-us:hover{
+  opacity: 0.7;
 }
 #img-box {
     flex: 1;
@@ -217,6 +243,15 @@ section {
     text-decoration: underline;
     opacity: 0.7;
   }
+  hr {
+    border: 0;
+    clear:both;
+    display:block;
+    width: 96%;               
+    background-color:black;
+    height: 1px;
+  }
+  
 
 
 
