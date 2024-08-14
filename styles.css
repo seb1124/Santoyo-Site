@@ -344,6 +344,9 @@ section {
   #img-box img{
     display: none;
   }
+  #home{
+    height: 110vh
+  }
 }
 
 
