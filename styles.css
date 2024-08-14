@@ -314,6 +314,14 @@ section {
 #home{
   height: 130vh;
 }
+@media (max-width: 430px){
+#text-box{
+  justify-content: center;
+}
+#img-box img{
+  object-fit: none;
+}
+}
 }
 
 
