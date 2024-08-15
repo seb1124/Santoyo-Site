@@ -23,6 +23,8 @@
 
     //Image gallery
     let slideIndex = 1;
+
+
 showSlides(slideIndex);
 
 // Next/previous controls
