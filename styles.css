@@ -236,13 +236,19 @@ nav{
 .contact-link{
   text-decoration: none;
   color: black;
-  padding: 5%;
+  padding: 3%;
 }
 .contact-link:hover{
   opacity: 0.7;
 }
 #map{
   display: none;
+}
+.contact-box h3{
+  margin: 3% 0;
+}
+.contact-box p{
+  margin-bottom: 2%;
 }
 
 /* -------- REVIEWS ------ */
@@ -270,10 +276,44 @@ nav{
 
 /* ---------- MEDIA QUERY -------*/
 
+/* Media query for smaller phone screens */
+@media (max-width: 375px){
+
+  #home{
+    height: 80vh;
+  }
+  #contact{
+    height: 80vh;
+  }
+}
+
 /* Media query for tablets and larger screens */
 @media (min-width: 768px){
   body{
       font-size: 1.125rem;
+  }
+
+  /* ------ CONTACT SECTION ------ */
+  .contact-link{
+    padding: 1%;
+  }
+  .contact-box h3{
+    margin: 3% 0;
+  }
+  .contact-box p{
+    margin-bottom: 2%;
+  }
+
+}
+
+/*-------- Media Query for iPad Air ------*/
+@media (min-width: 820px){
+
+  #home{
+    height: 50vh;
+  }
+  #reviews{
+    height: 50vh;
   }
 }
 
@@ -334,14 +374,44 @@ nav{
       height: 60%;
   }
   .contact-header{
-      padding-bottom: 5%;
+      padding-bottom: 1%;
   }
   .contact-link{
-      padding: 2%;
+      padding: 1%;
+  }
+  .contact-box h3{
+    margin: 3% 0;
+  }
+  .contact-box p{
+    margin-bottom: 2%;
   }
   #map{
       display: flex;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   }
+}
 
+/*------ Media Query for Nest Hub -----*/
+@media (min-width: 1024px) and (min-height: 600px){
+
+  #contact{
+    height: 100vh;
+  }
+}
+
+/*------ Media Query for iPad Pro ------*/
+@media (min-width: 1024px) and (min-height: 1366px){
+
+  #home{
+    height: 60vh;
+  }
+  #gallery{
+    height: 50vh;
+  }
+  #contact{
+    height: 50vh;
+  }
+  #map{
+    width: 500px;
+  }
 }
