@@ -415,3 +415,18 @@ nav{
     width: 500px;
   }
 }
+
+/*--------- Media Query for iPhone 13, 14, etc ------*/
+
+@media only screen 
+    and (width: 390px) 
+    and (height: 844px) 
+    and (-webkit-device-pixel-ratio: 3) { 
+      
+      #home{
+        height: 80vh;
+      }
+      #contact{
+        height: 100vh;
+      }
+    }
