@@ -417,17 +417,13 @@ nav{
 }
 
 /*--------- Media Query for iPhone 13, 14, etc ------*/
+@media (min-width: 390px) and (min-height: 844px){
+  #home{
+    height: 100vh;
+    background-color: black;
+  }
+  #contact{
+    height: 120vh;
+  }
+}
 
-@media only screen 
-    and (width: 390px) 
-    and (height: 844px) 
-    and (-webkit-device-pixel-ratio: 3) { 
-      
-      #home{
-        height: 100vh;
-        background-color: black;
-      }
-      #contact{
-        height: 120vh;
-      }
-    }
