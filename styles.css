@@ -425,6 +425,7 @@ nav{
       
       #home{
         height: 100vh;
+        background-color: black;
       }
       #contact{
         height: 120vh;
