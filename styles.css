@@ -255,6 +255,7 @@ nav{
 
 #reviews{
   height: 70vh;
+  display: none;
 }
 #review-box{
   width: 100%;
@@ -366,10 +367,10 @@ nav{
   /*------ GALLERY SECTION -----*/
   #gallery{
       height: 100vh;
-      background-color: inherit;
+      background-color: #931A25;
   }
   .gal-head{
-      color:#931A25;
+      color:#F5EFEF;
       padding-top: 3%;
   }
   .slideshow-container{
