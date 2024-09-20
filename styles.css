@@ -251,17 +251,6 @@ nav{
   margin-bottom: 2%;
 }
 
-/* -------- REVIEWS ------ */
-
-#reviews{
-  height: 70vh;
-  display: none;
-}
-#review-box{
-  width: 100%;
-  overflow-x: hidden;
-}
-
 /*------------ FOOTER ----- */
 
 .footer{
@@ -321,9 +310,6 @@ nav{
 @media (min-width: 820px){
 
   #home{
-    height: 50vh;
-  }
-  #reviews{
     height: 50vh;
   }
 }
